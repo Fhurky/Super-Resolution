@@ -497,7 +497,7 @@ if __name__ == "__main__":
 from tqdm import tqdm
 
 # --- Üretecin Ön Eğitimi ---
-PRETRAIN_EPOCHS = 2
+PRETRAIN_EPOCHS = 20
 print(f"\n--- Üreteç Ön Eğitimi Başlatılıyor ({PRETRAIN_EPOCHS} Epoch) ---")
 
 generator_pretrainer = Generator(num_res_blocks=16, filters=64, scale_factor=SCALE_FACTOR).to(DEVICE)
@@ -529,7 +529,7 @@ del generator_pretrainer
 print("--- Ön Eğitim Tamamlandı ---")
 
 # --- SRGAN Adverseryal Eğitimi ---
-EPOCHS = 2
+EPOCHS = 20
 print(f"\n--- SRGAN Adverseryal Eğitim Başlatılıyor ({EPOCHS} Epoch) ---")
 # Assuming sragan_trainer.fit has an internal loop you want to show progress for,
 # you'd need to modify the fit method itself to use tqdm.

@@ -82,7 +82,7 @@ MODEL_PATH = 'generator_srgan_final.pth' # 'X' yerine epoch numarasını veya ka
 # Süper çözünürlük uygulanacak düşük çözünürlüklü görüntü
 
 INPUT_IMAGE_PATH = './dataset/LR/LR_1.jpg'
-
+INPUT_IMAGE_PATH = './kedi.jpg'
 # Süper çözünürlüklü çıktının kaydedileceği yer
 
 OUTPUT_IMAGE_PATH = 'high_res_image.png'
