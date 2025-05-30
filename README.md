@@ -2,7 +2,7 @@
 
 Bu proje, düşük çözünürlüklü (LR) görüntülerden yüksek çözünürlüklü (HR) görüntüler üretmek için bir Generative Adversarial Network (GAN) mimarisi olan SRGAN'i PyTorch kullanarak uygular. Eğitim verisi olarak eşleştirilmiş LR ve HR görüntüler kullanılır. Üreteç, LR görüntüleri alarak gerçekçi SR (Super-Resolution) çıktılar üretmeyi öğrenirken, ayırt edici model bu çıktıları gerçek HR görüntülerle ayırt etmeyi öğrenir.
 
-## Örnek Sonuç (the Left One)
+## Örnek Sonuç (Sol-Left)
 
 ![CAT](./images/Compare.jpg)
 
